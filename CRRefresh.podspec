@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
   s.platform      = :ios, "8.0" 
   s.swift_version = '4.2'  
   s.source        = { :git => "https://github.com/CRAnimation/CRRefresh.git", :tag => s.version.to_s }
-  s.source_files  = ['CRRefresh/CRRefresh/*.{swift}','CRRefresh/CRRefresh/Animators/**/*.{swift}']
-  s.resources     = 'CRRefresh/CRRefresh/Animators/**/*.{bundle}'
+  s.source_files  = ['Sources/CRRefresh/*.{swift}','Sources/CRRefresh/Animators/**/*.{swift}']
+  s.resources     = 'Sources/CRRefresh/Animators/**/*.{bundle}'
   s.frameworks    = "UIKit"
   s.requires_arc  = true
 

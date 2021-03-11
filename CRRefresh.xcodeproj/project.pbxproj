@@ -7,24 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9702BC8A1E7A8F1800705296 /* NormalFooter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9702BC861E7A8F1800705296 /* NormalFooter.bundle */; };
-		9702BC8B1E7A8F1800705296 /* NormalFooterAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9702BC871E7A8F1800705296 /* NormalFooterAnimator.swift */; };
-		9702BC8C1E7A8F1800705296 /* NormalHeader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9702BC881E7A8F1800705296 /* NormalHeader.bundle */; };
-		9702BC8D1E7A8F1800705296 /* NormalHeaderAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9702BC891E7A8F1800705296 /* NormalHeaderAnimator.swift */; };
-		9717BBAA1EB1C01E00AD6864 /* FastCheckLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9717BBA91EB1C01E00AD6864 /* FastCheckLayer.swift */; };
-		974647E31E8A4F93003A3019 /* FastAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974647E01E8A4F93003A3019 /* FastAnimator.swift */; };
-		974647E41E8A4F93003A3019 /* FastArrowLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974647E11E8A4F93003A3019 /* FastArrowLayer.swift */; };
-		974647E51E8A4F93003A3019 /* FastCircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974647E21E8A4F93003A3019 /* FastCircleLayer.swift */; };
-		974647E71E8A545B003A3019 /* FastLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974647E61E8A545B003A3019 /* FastLayer.swift */; };
-		9753C6691E76A12A00CCBBA0 /* SlackLoadingAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753C65B1E76A12A00CCBBA0 /* SlackLoadingAnimator.swift */; };
-		9753C66A1E76A12A00CCBBA0 /* WCLLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753C65C1E76A12A00CCBBA0 /* WCLLoadingView.swift */; };
-		9753C66B1E76A12A00CCBBA0 /* CRRefreshAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753C65D1E76A12A00CCBBA0 /* CRRefreshAnimator.swift */; };
-		9753C66C1E76A12A00CCBBA0 /* CRRefreshBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753C65E1E76A12A00CCBBA0 /* CRRefreshBundle.swift */; };
-		9753C66D1E76A12A00CCBBA0 /* CRRefreshComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753C65F1E76A12A00CCBBA0 /* CRRefreshComponent.swift */; };
-		9753C66E1E76A12A00CCBBA0 /* CRRefreshExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753C6601E76A12A00CCBBA0 /* CRRefreshExtension.swift */; };
-		9753C66F1E76A12A00CCBBA0 /* CRRefreshFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753C6611E76A12A00CCBBA0 /* CRRefreshFooterView.swift */; };
-		9753C6701E76A12A00CCBBA0 /* CRRefreshHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753C6621E76A12A00CCBBA0 /* CRRefreshHeaderView.swift */; };
-		9753C6711E76A12A00CCBBA0 /* CRRefreshProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753C6631E76A12A00CCBBA0 /* CRRefreshProtocol.swift */; };
+		080F06E525F9F09E00EE4B5E /* CRRefreshAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F06C925F9F09E00EE4B5E /* CRRefreshAnimator.swift */; };
+		080F06E625F9F09E00EE4B5E /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F06CA25F9F09E00EE4B5E /* UIColorExtension.swift */; };
+		080F06E725F9F09E00EE4B5E /* RamotionBounceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F06CD25F9F09E00EE4B5E /* RamotionBounceLayer.swift */; };
+		080F06E825F9F09E00EE4B5E /* RamotionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F06CE25F9F09E00EE4B5E /* RamotionAnimator.swift */; };
+		080F06E925F9F09E00EE4B5E /* RamotionWaveLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F06CF25F9F09E00EE4B5E /* RamotionWaveLayer.swift */; };
+		080F06EA25F9F09E00EE4B5E /* RamotionBallLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F06D025F9F09E00EE4B5E /* RamotionBallLayer.swift */; };
+		080F06EB25F9F09E00EE4B5E /* SlackLoadingAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F06D225F9F09E00EE4B5E /* SlackLoadingAnimator.swift */; };
+		080F06EC25F9F09E00EE4B5E /* WCLLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F06D325F9F09E00EE4B5E /* WCLLoadingView.swift */; };
+		080F06ED25F9F09E00EE4B5E /* FastAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F06D525F9F09E00EE4B5E /* FastAnimator.swift */; };
+		080F06EE25F9F09E00EE4B5E /* FastLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F06D625F9F09E00EE4B5E /* FastLayer.swift */; };
+		080F06EF25F9F09E00EE4B5E /* FastArrowLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F06D725F9F09E00EE4B5E /* FastArrowLayer.swift */; };
+		080F06F025F9F09E00EE4B5E /* FastCheckLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F06D825F9F09E00EE4B5E /* FastCheckLayer.swift */; };
+		080F06F125F9F09E00EE4B5E /* FastCircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F06D925F9F09E00EE4B5E /* FastCircleLayer.swift */; };
+		080F06F225F9F09E00EE4B5E /* NormalHeader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 080F06DB25F9F09E00EE4B5E /* NormalHeader.bundle */; };
+		080F06F325F9F09E00EE4B5E /* NormalHeaderAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F06DC25F9F09E00EE4B5E /* NormalHeaderAnimator.swift */; };
+		080F06F425F9F09E00EE4B5E /* NormalFooterAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F06DD25F9F09E00EE4B5E /* NormalFooterAnimator.swift */; };
+		080F06F525F9F09E00EE4B5E /* NormalFooter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 080F06DE25F9F09E00EE4B5E /* NormalFooter.bundle */; };
+		080F06F625F9F09E00EE4B5E /* CRRefreshBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F06DF25F9F09E00EE4B5E /* CRRefreshBundle.swift */; };
+		080F06F725F9F09E00EE4B5E /* CRRefreshHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F06E025F9F09E00EE4B5E /* CRRefreshHeaderView.swift */; };
+		080F06F825F9F09E00EE4B5E /* CRRefreshExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F06E125F9F09E00EE4B5E /* CRRefreshExtension.swift */; };
+		080F06F925F9F09E00EE4B5E /* CRRefreshProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F06E225F9F09E00EE4B5E /* CRRefreshProtocol.swift */; };
+		080F06FA25F9F09E00EE4B5E /* CRRefreshComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F06E325F9F09E00EE4B5E /* CRRefreshComponent.swift */; };
+		080F06FB25F9F09E00EE4B5E /* CRRefreshFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F06E425F9F09E00EE4B5E /* CRRefreshFooterView.swift */; };
+		080F070025F9F0E900EE4B5E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 080F06FD25F9F0B900EE4B5E /* Info.plist */; };
 		9753C67A1E76A13C00CCBBA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753C6791E76A13C00CCBBA0 /* AppDelegate.swift */; };
 		9753C67C1E76A13C00CCBBA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753C67B1E76A13C00CCBBA0 /* ViewController.swift */; };
 		9753C6811E76A13C00CCBBA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9753C6801E76A13C00CCBBA0 /* Assets.xcassets */; };
@@ -38,11 +44,6 @@
 		9753C6971E76A1D500CCBBA0 /* RefreshCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9753C6931E76A1D500CCBBA0 /* RefreshCell.xib */; };
 		9753C6981E76A28300CCBBA0 /* CRRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9753C6461E76A0D200CCBBA0 /* CRRefresh.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		9753C69D1E76A4EE00CCBBA0 /* CRRefresh.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9753C6461E76A0D200CCBBA0 /* CRRefresh.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9753C6A01E76B36300CCBBA0 /* RamotionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753C69F1E76B36300CCBBA0 /* RamotionAnimator.swift */; };
-		9753C6A81E76F88A00CCBBA0 /* RamotionWaveLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753C6A71E76F88A00CCBBA0 /* RamotionWaveLayer.swift */; };
-		9753C6AA1E77755600CCBBA0 /* RamotionBounceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753C6A91E77755600CCBBA0 /* RamotionBounceLayer.swift */; };
-		9753C6AC1E77C2E000CCBBA0 /* RamotionBallLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753C6AB1E77C2E000CCBBA0 /* RamotionBallLayer.swift */; };
-		97884D03200DD20A0017692A /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97884D02200DD20A0017692A /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,26 +60,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9702BC861E7A8F1800705296 /* NormalFooter.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NormalFooter.bundle; sourceTree = "<group>"; };
-		9702BC871E7A8F1800705296 /* NormalFooterAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalFooterAnimator.swift; sourceTree = "<group>"; };
-		9702BC881E7A8F1800705296 /* NormalHeader.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NormalHeader.bundle; sourceTree = "<group>"; };
-		9702BC891E7A8F1800705296 /* NormalHeaderAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalHeaderAnimator.swift; sourceTree = "<group>"; };
-		9717BBA91EB1C01E00AD6864 /* FastCheckLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastCheckLayer.swift; sourceTree = "<group>"; };
-		974647E01E8A4F93003A3019 /* FastAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastAnimator.swift; sourceTree = "<group>"; };
-		974647E11E8A4F93003A3019 /* FastArrowLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastArrowLayer.swift; sourceTree = "<group>"; };
-		974647E21E8A4F93003A3019 /* FastCircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastCircleLayer.swift; sourceTree = "<group>"; };
-		974647E61E8A545B003A3019 /* FastLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastLayer.swift; sourceTree = "<group>"; };
+		080F06C925F9F09E00EE4B5E /* CRRefreshAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshAnimator.swift; sourceTree = "<group>"; };
+		080F06CA25F9F09E00EE4B5E /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		080F06CD25F9F09E00EE4B5E /* RamotionBounceLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamotionBounceLayer.swift; sourceTree = "<group>"; };
+		080F06CE25F9F09E00EE4B5E /* RamotionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamotionAnimator.swift; sourceTree = "<group>"; };
+		080F06CF25F9F09E00EE4B5E /* RamotionWaveLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamotionWaveLayer.swift; sourceTree = "<group>"; };
+		080F06D025F9F09E00EE4B5E /* RamotionBallLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamotionBallLayer.swift; sourceTree = "<group>"; };
+		080F06D225F9F09E00EE4B5E /* SlackLoadingAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlackLoadingAnimator.swift; sourceTree = "<group>"; };
+		080F06D325F9F09E00EE4B5E /* WCLLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLLoadingView.swift; sourceTree = "<group>"; };
+		080F06D525F9F09E00EE4B5E /* FastAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastAnimator.swift; sourceTree = "<group>"; };
+		080F06D625F9F09E00EE4B5E /* FastLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastLayer.swift; sourceTree = "<group>"; };
+		080F06D725F9F09E00EE4B5E /* FastArrowLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastArrowLayer.swift; sourceTree = "<group>"; };
+		080F06D825F9F09E00EE4B5E /* FastCheckLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastCheckLayer.swift; sourceTree = "<group>"; };
+		080F06D925F9F09E00EE4B5E /* FastCircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastCircleLayer.swift; sourceTree = "<group>"; };
+		080F06DB25F9F09E00EE4B5E /* NormalHeader.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NormalHeader.bundle; sourceTree = "<group>"; };
+		080F06DC25F9F09E00EE4B5E /* NormalHeaderAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalHeaderAnimator.swift; sourceTree = "<group>"; };
+		080F06DD25F9F09E00EE4B5E /* NormalFooterAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalFooterAnimator.swift; sourceTree = "<group>"; };
+		080F06DE25F9F09E00EE4B5E /* NormalFooter.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NormalFooter.bundle; sourceTree = "<group>"; };
+		080F06DF25F9F09E00EE4B5E /* CRRefreshBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshBundle.swift; sourceTree = "<group>"; };
+		080F06E025F9F09E00EE4B5E /* CRRefreshHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshHeaderView.swift; sourceTree = "<group>"; };
+		080F06E125F9F09E00EE4B5E /* CRRefreshExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshExtension.swift; sourceTree = "<group>"; };
+		080F06E225F9F09E00EE4B5E /* CRRefreshProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshProtocol.swift; sourceTree = "<group>"; };
+		080F06E325F9F09E00EE4B5E /* CRRefreshComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshComponent.swift; sourceTree = "<group>"; };
+		080F06E425F9F09E00EE4B5E /* CRRefreshFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshFooterView.swift; sourceTree = "<group>"; };
+		080F06FD25F9F0B900EE4B5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9753C6461E76A0D200CCBBA0 /* CRRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CRRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9753C64A1E76A0D200CCBBA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9753C65B1E76A12A00CCBBA0 /* SlackLoadingAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlackLoadingAnimator.swift; sourceTree = "<group>"; };
-		9753C65C1E76A12A00CCBBA0 /* WCLLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLLoadingView.swift; sourceTree = "<group>"; };
-		9753C65D1E76A12A00CCBBA0 /* CRRefreshAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshAnimator.swift; sourceTree = "<group>"; };
-		9753C65E1E76A12A00CCBBA0 /* CRRefreshBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshBundle.swift; sourceTree = "<group>"; };
-		9753C65F1E76A12A00CCBBA0 /* CRRefreshComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshComponent.swift; sourceTree = "<group>"; };
-		9753C6601E76A12A00CCBBA0 /* CRRefreshExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshExtension.swift; sourceTree = "<group>"; };
-		9753C6611E76A12A00CCBBA0 /* CRRefreshFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshFooterView.swift; sourceTree = "<group>"; };
-		9753C6621E76A12A00CCBBA0 /* CRRefreshHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshHeaderView.swift; sourceTree = "<group>"; };
-		9753C6631E76A12A00CCBBA0 /* CRRefreshProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshProtocol.swift; sourceTree = "<group>"; };
 		9753C6771E76A13C00CCBBA0 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9753C6791E76A13C00CCBBA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9753C67B1E76A13C00CCBBA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,11 +98,6 @@
 		9753C6911E76A1D500CCBBA0 /* NormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NormalCell.xib; sourceTree = "<group>"; };
 		9753C6921E76A1D500CCBBA0 /* RefreshCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshCell.swift; sourceTree = "<group>"; };
 		9753C6931E76A1D500CCBBA0 /* RefreshCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RefreshCell.xib; sourceTree = "<group>"; };
-		9753C69F1E76B36300CCBBA0 /* RamotionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamotionAnimator.swift; sourceTree = "<group>"; };
-		9753C6A71E76F88A00CCBBA0 /* RamotionWaveLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamotionWaveLayer.swift; sourceTree = "<group>"; };
-		9753C6A91E77755600CCBBA0 /* RamotionBounceLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamotionBounceLayer.swift; sourceTree = "<group>"; };
-		9753C6AB1E77C2E000CCBBA0 /* RamotionBallLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamotionBallLayer.swift; sourceTree = "<group>"; };
-		97884D02200DD20A0017692A /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,22 +119,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		974647DF1E8A4F93003A3019 /* FastAnimator */ = {
+		080F06C725F9F09E00EE4B5E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				974647E01E8A4F93003A3019 /* FastAnimator.swift */,
-				974647E61E8A545B003A3019 /* FastLayer.swift */,
-				974647E11E8A4F93003A3019 /* FastArrowLayer.swift */,
-				974647E21E8A4F93003A3019 /* FastCircleLayer.swift */,
-				9717BBA91EB1C01E00AD6864 /* FastCheckLayer.swift */,
+				080F06FD25F9F0B900EE4B5E /* Info.plist */,
+				080F06C825F9F09E00EE4B5E /* CRRefresh */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		080F06C825F9F09E00EE4B5E /* CRRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				080F06C925F9F09E00EE4B5E /* CRRefreshAnimator.swift */,
+				080F06CA25F9F09E00EE4B5E /* UIColorExtension.swift */,
+				080F06CB25F9F09E00EE4B5E /* Animators */,
+				080F06DF25F9F09E00EE4B5E /* CRRefreshBundle.swift */,
+				080F06E025F9F09E00EE4B5E /* CRRefreshHeaderView.swift */,
+				080F06E125F9F09E00EE4B5E /* CRRefreshExtension.swift */,
+				080F06E225F9F09E00EE4B5E /* CRRefreshProtocol.swift */,
+				080F06E325F9F09E00EE4B5E /* CRRefreshComponent.swift */,
+				080F06E425F9F09E00EE4B5E /* CRRefreshFooterView.swift */,
+			);
+			path = CRRefresh;
+			sourceTree = "<group>";
+		};
+		080F06CB25F9F09E00EE4B5E /* Animators */ = {
+			isa = PBXGroup;
+			children = (
+				080F06CC25F9F09E00EE4B5E /* RamotionAnimator */,
+				080F06D125F9F09E00EE4B5E /* SlackLoadingAnimator */,
+				080F06D425F9F09E00EE4B5E /* FastAnimator */,
+				080F06DA25F9F09E00EE4B5E /* NormalAnimator */,
+			);
+			path = Animators;
+			sourceTree = "<group>";
+		};
+		080F06CC25F9F09E00EE4B5E /* RamotionAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				080F06CD25F9F09E00EE4B5E /* RamotionBounceLayer.swift */,
+				080F06CE25F9F09E00EE4B5E /* RamotionAnimator.swift */,
+				080F06CF25F9F09E00EE4B5E /* RamotionWaveLayer.swift */,
+				080F06D025F9F09E00EE4B5E /* RamotionBallLayer.swift */,
+			);
+			path = RamotionAnimator;
+			sourceTree = "<group>";
+		};
+		080F06D125F9F09E00EE4B5E /* SlackLoadingAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				080F06D225F9F09E00EE4B5E /* SlackLoadingAnimator.swift */,
+				080F06D325F9F09E00EE4B5E /* WCLLoadingView.swift */,
+			);
+			path = SlackLoadingAnimator;
+			sourceTree = "<group>";
+		};
+		080F06D425F9F09E00EE4B5E /* FastAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				080F06D525F9F09E00EE4B5E /* FastAnimator.swift */,
+				080F06D625F9F09E00EE4B5E /* FastLayer.swift */,
+				080F06D725F9F09E00EE4B5E /* FastArrowLayer.swift */,
+				080F06D825F9F09E00EE4B5E /* FastCheckLayer.swift */,
+				080F06D925F9F09E00EE4B5E /* FastCircleLayer.swift */,
 			);
 			path = FastAnimator;
+			sourceTree = "<group>";
+		};
+		080F06DA25F9F09E00EE4B5E /* NormalAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				080F06DB25F9F09E00EE4B5E /* NormalHeader.bundle */,
+				080F06DC25F9F09E00EE4B5E /* NormalHeaderAnimator.swift */,
+				080F06DD25F9F09E00EE4B5E /* NormalFooterAnimator.swift */,
+				080F06DE25F9F09E00EE4B5E /* NormalFooter.bundle */,
+			);
+			path = NormalAnimator;
 			sourceTree = "<group>";
 		};
 		9753C63C1E76A0D200CCBBA0 = {
 			isa = PBXGroup;
 			children = (
-				9753C6481E76A0D200CCBBA0 /* CRRefresh */,
+				080F06C725F9F09E00EE4B5E /* Sources */,
 				9753C6781E76A13C00CCBBA0 /* Demo */,
 				9753C6471E76A0D200CCBBA0 /* Products */,
 			);
@@ -146,62 +214,6 @@
 				9753C6771E76A13C00CCBBA0 /* Demo.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		9753C6481E76A0D200CCBBA0 /* CRRefresh */ = {
-			isa = PBXGroup;
-			children = (
-				9753C6511E76A12A00CCBBA0 /* CRRefresh */,
-				9753C64A1E76A0D200CCBBA0 /* Info.plist */,
-			);
-			path = CRRefresh;
-			sourceTree = "<group>";
-		};
-		9753C6511E76A12A00CCBBA0 /* CRRefresh */ = {
-			isa = PBXGroup;
-			children = (
-				9753C6521E76A12A00CCBBA0 /* Animators */,
-				9753C65D1E76A12A00CCBBA0 /* CRRefreshAnimator.swift */,
-				9753C65E1E76A12A00CCBBA0 /* CRRefreshBundle.swift */,
-				9753C65F1E76A12A00CCBBA0 /* CRRefreshComponent.swift */,
-				9753C6601E76A12A00CCBBA0 /* CRRefreshExtension.swift */,
-				9753C6611E76A12A00CCBBA0 /* CRRefreshFooterView.swift */,
-				9753C6621E76A12A00CCBBA0 /* CRRefreshHeaderView.swift */,
-				9753C6631E76A12A00CCBBA0 /* CRRefreshProtocol.swift */,
-				97884D02200DD20A0017692A /* UIColorExtension.swift */,
-			);
-			path = CRRefresh;
-			sourceTree = "<group>";
-		};
-		9753C6521E76A12A00CCBBA0 /* Animators */ = {
-			isa = PBXGroup;
-			children = (
-				974647DF1E8A4F93003A3019 /* FastAnimator */,
-				9753C69E1E76B35600CCBBA0 /* RamotionAnimator */,
-				9753C6531E76A12A00CCBBA0 /* NormalAnimator */,
-				9753C65A1E76A12A00CCBBA0 /* SlackLoadingAnimator */,
-			);
-			path = Animators;
-			sourceTree = "<group>";
-		};
-		9753C6531E76A12A00CCBBA0 /* NormalAnimator */ = {
-			isa = PBXGroup;
-			children = (
-				9702BC861E7A8F1800705296 /* NormalFooter.bundle */,
-				9702BC871E7A8F1800705296 /* NormalFooterAnimator.swift */,
-				9702BC881E7A8F1800705296 /* NormalHeader.bundle */,
-				9702BC891E7A8F1800705296 /* NormalHeaderAnimator.swift */,
-			);
-			path = NormalAnimator;
-			sourceTree = "<group>";
-		};
-		9753C65A1E76A12A00CCBBA0 /* SlackLoadingAnimator */ = {
-			isa = PBXGroup;
-			children = (
-				9753C65B1E76A12A00CCBBA0 /* SlackLoadingAnimator.swift */,
-				9753C65C1E76A12A00CCBBA0 /* WCLLoadingView.swift */,
-			);
-			path = SlackLoadingAnimator;
 			sourceTree = "<group>";
 		};
 		9753C6781E76A13C00CCBBA0 /* Demo */ = {
@@ -229,17 +241,6 @@
 				9753C6931E76A1D500CCBBA0 /* RefreshCell.xib */,
 			);
 			path = Cells;
-			sourceTree = "<group>";
-		};
-		9753C69E1E76B35600CCBBA0 /* RamotionAnimator */ = {
-			isa = PBXGroup;
-			children = (
-				9753C69F1E76B36300CCBBA0 /* RamotionAnimator.swift */,
-				9753C6A91E77755600CCBBA0 /* RamotionBounceLayer.swift */,
-				9753C6A71E76F88A00CCBBA0 /* RamotionWaveLayer.swift */,
-				9753C6AB1E77C2E000CCBBA0 /* RamotionBallLayer.swift */,
-			);
-			path = RamotionAnimator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,13 +299,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "王崇磊";
 				TargetAttributes = {
 					9753C6451E76A0D200CCBBA0 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = LV28398KV6;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1240;
 						ProvisioningStyle = Automatic;
 					};
 					9753C6761E76A13C00CCBBA0 = {
@@ -316,7 +317,7 @@
 			};
 			buildConfigurationList = 9753C6401E76A0D200CCBBA0 /* Build configuration list for PBXProject "CRRefresh" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -338,8 +339,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9702BC8A1E7A8F1800705296 /* NormalFooter.bundle in Resources */,
-				9702BC8C1E7A8F1800705296 /* NormalHeader.bundle in Resources */,
+				080F06F225F9F09E00EE4B5E /* NormalHeader.bundle in Resources */,
+				080F06F525F9F09E00EE4B5E /* NormalFooter.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +348,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				080F070025F9F0E900EE4B5E /* Info.plist in Resources */,
 				9753C6841E76A13C00CCBBA0 /* LaunchScreen.storyboard in Resources */,
 				9753C6951E76A1D500CCBBA0 /* NormalCell.xib in Resources */,
 				9753C6811E76A13C00CCBBA0 /* Assets.xcassets in Resources */,
@@ -361,27 +363,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9753C66C1E76A12A00CCBBA0 /* CRRefreshBundle.swift in Sources */,
-				974647E51E8A4F93003A3019 /* FastCircleLayer.swift in Sources */,
-				9753C66B1E76A12A00CCBBA0 /* CRRefreshAnimator.swift in Sources */,
-				9702BC8D1E7A8F1800705296 /* NormalHeaderAnimator.swift in Sources */,
-				9753C6A01E76B36300CCBBA0 /* RamotionAnimator.swift in Sources */,
-				9753C6AC1E77C2E000CCBBA0 /* RamotionBallLayer.swift in Sources */,
-				9702BC8B1E7A8F1800705296 /* NormalFooterAnimator.swift in Sources */,
-				9753C6691E76A12A00CCBBA0 /* SlackLoadingAnimator.swift in Sources */,
-				97884D03200DD20A0017692A /* UIColorExtension.swift in Sources */,
-				974647E31E8A4F93003A3019 /* FastAnimator.swift in Sources */,
-				9753C66E1E76A12A00CCBBA0 /* CRRefreshExtension.swift in Sources */,
-				9753C66D1E76A12A00CCBBA0 /* CRRefreshComponent.swift in Sources */,
-				9753C6701E76A12A00CCBBA0 /* CRRefreshHeaderView.swift in Sources */,
-				974647E41E8A4F93003A3019 /* FastArrowLayer.swift in Sources */,
-				9753C66A1E76A12A00CCBBA0 /* WCLLoadingView.swift in Sources */,
-				9753C6A81E76F88A00CCBBA0 /* RamotionWaveLayer.swift in Sources */,
-				9753C66F1E76A12A00CCBBA0 /* CRRefreshFooterView.swift in Sources */,
-				9717BBAA1EB1C01E00AD6864 /* FastCheckLayer.swift in Sources */,
-				9753C6711E76A12A00CCBBA0 /* CRRefreshProtocol.swift in Sources */,
-				974647E71E8A545B003A3019 /* FastLayer.swift in Sources */,
-				9753C6AA1E77755600CCBBA0 /* RamotionBounceLayer.swift in Sources */,
+				080F06E525F9F09E00EE4B5E /* CRRefreshAnimator.swift in Sources */,
+				080F06ED25F9F09E00EE4B5E /* FastAnimator.swift in Sources */,
+				080F06EA25F9F09E00EE4B5E /* RamotionBallLayer.swift in Sources */,
+				080F06E925F9F09E00EE4B5E /* RamotionWaveLayer.swift in Sources */,
+				080F06F425F9F09E00EE4B5E /* NormalFooterAnimator.swift in Sources */,
+				080F06F025F9F09E00EE4B5E /* FastCheckLayer.swift in Sources */,
+				080F06E825F9F09E00EE4B5E /* RamotionAnimator.swift in Sources */,
+				080F06FB25F9F09E00EE4B5E /* CRRefreshFooterView.swift in Sources */,
+				080F06F125F9F09E00EE4B5E /* FastCircleLayer.swift in Sources */,
+				080F06F925F9F09E00EE4B5E /* CRRefreshProtocol.swift in Sources */,
+				080F06EB25F9F09E00EE4B5E /* SlackLoadingAnimator.swift in Sources */,
+				080F06FA25F9F09E00EE4B5E /* CRRefreshComponent.swift in Sources */,
+				080F06E725F9F09E00EE4B5E /* RamotionBounceLayer.swift in Sources */,
+				080F06F825F9F09E00EE4B5E /* CRRefreshExtension.swift in Sources */,
+				080F06EE25F9F09E00EE4B5E /* FastLayer.swift in Sources */,
+				080F06EC25F9F09E00EE4B5E /* WCLLoadingView.swift in Sources */,
+				080F06E625F9F09E00EE4B5E /* UIColorExtension.swift in Sources */,
+				080F06F325F9F09E00EE4B5E /* NormalHeaderAnimator.swift in Sources */,
+				080F06F625F9F09E00EE4B5E /* CRRefreshBundle.swift in Sources */,
+				080F06F725F9F09E00EE4B5E /* CRRefreshHeaderView.swift in Sources */,
+				080F06EF25F9F09E00EE4B5E /* FastArrowLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -437,6 +440,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -462,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -478,6 +482,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -498,6 +503,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -517,7 +523,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -537,14 +543,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CRRefresh/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WCL.CRRefresh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -557,20 +563,21 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CRRefresh/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WCL.CRRefresh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		9753C6871E76A13C00CCBBA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 464B6RYLBK;
 				INFOPLIST_FILE = Demo/Info.plist;
@@ -584,6 +591,7 @@
 		9753C6881E76A13C00CCBBA0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 464B6RYLBK;
 				INFOPLIST_FILE = Demo/Info.plist;
